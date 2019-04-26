@@ -1,0 +1,17 @@
+##\u8BBE\u7F6E\u542F\u52A8\u7AEF\u53E3
+server:
+  port: 8090
+
+spring:
+  application:
+    name: fishbone-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lubingcheng/spring-study.git
+          username: 316678357@qq.com
+          password: kakaka.1314
+
+
+##\u914D\u7F6EGit
